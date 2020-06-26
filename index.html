@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Bagels</title>
+    <meta charset="utf-8">
+    <script src="./app.js" defer></script>
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+form {
+  width: 400px;
+}
+    </style>
+  </head>
+  <body>
+    <h1>Bagels</h1>
+    <form class="new-bagel-form">
+      <input type="text" name="type" placeholder="Type" />
+      <input type="number" name="rating" placeholder="Rating" />
+      <input type="submit" value="Add it!" />
+    </form>
+  </body>
+</html>
